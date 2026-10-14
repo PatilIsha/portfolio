@@ -77,7 +77,7 @@ function ProjectCard({ p, index }) {
         onPointerLeave={leave}
       >
         <div
-          className={`project__img ${p.fit === 'contain' ? 'project__img--contain' : ''}`}
+          className={`project__img ${p.fit === 'contain' ? 'project__img--contain' : ''} ${p.center ? 'project__img--center' : ''}`}
           style={p.fit === 'contain' ? { '--bg': p.bg, '--c': p.color } : undefined}
         >
           {p.image ? (
