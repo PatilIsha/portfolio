@@ -24,7 +24,7 @@ export const profile = {
 
 export const stats = [
   { value: 3.5, suffix: '+', label: 'Years experience', decimals: 1 },
-  { value: 13, suffix: '+', label: 'Featured projects' },
+  { value: 10, suffix: '+', label: 'Featured projects' },
   { value: 3, suffix: '', label: 'Companies + freelance' },
   { value: 1, suffix: '', label: 'Project of the Season award' },
 ]
@@ -51,22 +51,6 @@ export const projects = [
     secondary: { label: 'Case study', href: 'https://www.behance.net/gallery/197979615/Tracker-System-Visual-designing' },
     desc: 'Asset-tracking dashboard with live maps, geofence management and real-time alerts.',
     featured: true,
-  },
-  {
-    title: 'MediTree — Website',
-    tag: 'Web design',
-    type: 'uiux',
-    image: '/projects/meditree-web.jpg',
-    link: 'https://www.behance.net/gallery/191886961/Meditree-Web-Design',
-    desc: 'Responsive marketing website extending the MediTree brand to desktop.',
-  },
-  {
-    title: 'MyWay',
-    tag: 'Visual design · Website home',
-    type: 'uiux',
-    image: '/projects/myway.jpg',
-    link: 'https://www.behance.net/gallery/201795881/MyWay-UI-Visual-Designs-website-Home-page',
-    desc: 'UI visual language and website home page for a travel/mobility product.',
   },
   {
     title: 'MediTree — Showcase',
@@ -138,14 +122,6 @@ export const projects = [
     link: 'https://www.behance.net/gallery/230291569/Graphics-Work',
     desc: 'Product ads, social media creatives and brand campaigns.',
     featured: true,
-  },
-  {
-    title: 'PatilSafar',
-    tag: 'Brand & visual identity',
-    type: 'graphic',
-    image: '/projects/patilsafar.jpg',
-    link: 'https://www.behance.net/gallery/201793433/PATILSAFAR',
-    desc: 'Brand visuals and marketing creatives for a travel brand.',
   },
   {
     title: 'Wizio AI Leaflet',
