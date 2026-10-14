@@ -461,6 +461,7 @@ img { display: block; max-width: 100%; }
   .project__overlay p { display: none; }
   .project__open { font-size: 13px; color: #fff; background: rgba(10,10,10,.78); padding: 5px 5px 5px 14px; border-radius: 99px; backdrop-filter: blur(6px); }
   .project__media:hover .project__img { transform: none; }
+  .about__photo-frame img { filter: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
